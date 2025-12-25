@@ -1,6 +1,6 @@
 module github.com/rancher/machine
 
-go 1.20
+go 1.23.0
 
 replace (
 	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20170731201646-1009e6a40b29
@@ -30,7 +30,7 @@ require (
 	github.com/vmware/govmomi v0.30.4
 	golang.org/x/crypto v0.16.0
 	golang.org/x/net v0.19.0
-	golang.org/x/oauth2 v0.10.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sys v0.15.0
 	google.golang.org/api v0.57.0
 	gopkg.in/yaml.v2 v2.4.0
