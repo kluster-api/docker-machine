@@ -1,6 +1,6 @@
 module github.com/rancher/machine
 
-go 1.20
+go 1.25.0
 
 replace (
 	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20170731201646-1009e6a40b29
@@ -28,10 +28,10 @@ require (
 	github.com/urfave/cli v1.20.0
 	github.com/vmware/govcloudair v0.0.2
 	github.com/vmware/govmomi v0.30.4
-	golang.org/x/crypto v0.16.0
-	golang.org/x/net v0.19.0
+	golang.org/x/crypto v0.52.0
+	golang.org/x/net v0.54.0
 	golang.org/x/oauth2 v0.10.0
-	golang.org/x/sys v0.15.0
+	golang.org/x/sys v0.45.0
 	google.golang.org/api v0.57.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.28.6
@@ -93,9 +93,9 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/tent/http-link-go v0.0.0-20130702225549-ac974c61c2f9 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20210924002016-3dee208752a0 // indirect
